@@ -1,0 +1,23 @@
+NESCRUN - Instalacion en Windows (FL Studio)
+============================================
+
+1. Cerra FL Studio.
+2. Copia la carpeta "NESCRUN.vst3" a:
+      C:\Program Files\Common Files\VST3\
+   (si Windows pide permiso de administrador, acepta).
+3. Abri FL Studio > Options > Manage plugins > "Find installed plugins" (Start scan).
+4. Busca "NESCRUN" en la lista, marcalo con la estrella (favorito).
+5. En el Mixer, en la pista de la voz, carga NESCRUN en un slot de efectos.
+
+Consejos rapidos
+- Elegi la TONALIDAD (Key) y la ESCALA del beat en el modulo TUNE.
+  NATURAL = afinacion transparente que conserva el vibrato.
+  HARD    = efecto autotune duro (Speed en 0 ms).
+- Apreta AUTO MIX y canta / reproduci la voz unos 7 segundos:
+  NESCRUN ajusta solo la ganancia, EQ, de-esser y compresion.
+- El plugin tiene ~65 ms de latencia que FL Studio compensa automaticamente.
+  Para GRABAR escuchandote sin retraso, desactivalo mientras grabas
+  (o usa el boton de bypass del slot) y activalo para mezclar.
+- Tus presets se guardan en Documentos\NESCRUN Presets.
+
+NESCRUN.exe es la version independiente (standalone) para probar con el microfono.

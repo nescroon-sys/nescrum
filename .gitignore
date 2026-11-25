@@ -1,0 +1,4 @@
+build/
+JUCE_LOCAL
+*.user
+.vs/
